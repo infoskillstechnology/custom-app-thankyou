@@ -1,0 +1,27 @@
+{
+  "name": "custom-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/action.js -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/infoskillstechnology/custom-app-thankyou.git"
+  },
+  "keywords": [
+    "npm",
+    "docker"
+  ],
+  "author": "skbhati199",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/infoskillstechnology/custom-app-thankyou/issues"
+  },
+  "homepage": "https://github.com/infoskillstechnology/custom-app-thankyou#readme",
+  "dependencies": {
+    "@vercel/ncc": "^0.29.0"
+  }
+}

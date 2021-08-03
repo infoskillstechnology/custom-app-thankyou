@@ -1,0 +1,15 @@
+name: 'Custom-App Thank you'
+description: 'Thank you for create custom app git hub actions'
+auther: 'skbhati199'
+
+inputs:
+  GITHUB_TOKEN:
+    description: 'Github token'
+    required: true
+  TENOR_TOKEN:
+    description: 'Tenor token'
+    required: true
+
+runs: 
+  using: 'node12'
+  main: 'dist/index.js'
